@@ -1,0 +1,33 @@
+# Build directories
+/target/
+/build/
+
+# IntelliJ IDEA
+/.idea/
+/*.iml
+
+# Eclipse
+/.settings/
+/.classpath
+/.project
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+
+# VS Code
+/.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
