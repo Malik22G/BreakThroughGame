@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: com.mycompany.breakthrough.TestClickOutsideBoard
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.046 s <<< FAILURE! -- in com.mycompany.breakthrough.TestClickOutsideBoard
+com.mycompany.breakthrough.TestClickOutsideBoard.testClickOutsideBoard -- Time elapsed: 0.039 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.lang.IllegalStateException> but was: <java.lang.NullPointerException>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3115)
+	at com.mycompany.breakthrough.TestClickOutsideBoard.testClickOutsideBoard(TestClickOutsideBoard.java:14)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+Caused by: java.lang.NullPointerException: Cannot invoke "com.mycompany.breakthrough.BreakThroughView.updateBoard()" because "this.view" is null
+	at com.mycompany.breakthrough.BreakThroughController.handleCellClick(BreakThroughController.java:75)
+	at com.mycompany.breakthrough.TestClickOutsideBoard.lambda$testClickOutsideBoard$0(TestClickOutsideBoard.java:15)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	... 6 more
+

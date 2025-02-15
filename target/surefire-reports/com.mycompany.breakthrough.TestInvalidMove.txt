@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.mycompany.breakthrough.TestInvalidMove
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.006 s <<< FAILURE! -- in com.mycompany.breakthrough.TestInvalidMove
+com.mycompany.breakthrough.TestInvalidMove.testInvalidMovement -- Time elapsed: 0.003 s <<< ERROR!
+java.lang.IllegalStateException: Position already occupied
+	at com.mycompany.breakthrough.GameBoard.placePiece(GameBoard.java:31)
+	at com.mycompany.breakthrough.TestInvalidMove.testInvalidMovement(TestInvalidMove.java:13)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+
